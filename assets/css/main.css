@@ -38,6 +38,7 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
   background-color: #000;
+  margin-bottom: 50px;
 }
 
 a {
@@ -354,6 +355,9 @@ h6 {
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
+    position: fixed;
+    left: 50%;
+    margin-left: -140px;
   }
 
   .navbar ul {
@@ -596,7 +600,6 @@ h6 {
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
